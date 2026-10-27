@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+     #box1 {
+        background-color: red;
+        border: 1px solid black;
+        display:inline-block;
+        width:100px;
+        height:100px;
+    }
+    #box2 {
+        background-color: green;
+        border: 1px solid black;
+        width:200px;
+        height:200px;
+    }
+    #box3 {
+        background-color: blue;
+        border: 1px solid black;
+        width:300px;
+        height:150px;
+        display:inline-block;
+    }
+    .box0 {
+        background-color: rgb(45, 197, 248);
+        border: 1px solid black;
+        width:450px;
+        height:400px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+    }
+    </style>
+</head>
+<body>
+    <span class="box0">1.inline
+    <span id="box1">1.inline</span>
+    <div id="box2">2.block</div>
+    <span id="box3">3.inline-block</span>
+    </span>
+</body>
+</html>

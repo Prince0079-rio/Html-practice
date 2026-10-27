@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>table {
+            border-collapse: collapse;
+            margin-bottom: 24px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Basic HTML Table</h1>
+
+    <table>
+        <caption>People</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Table with a merged column</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Experience (years)</th>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <th colspan="2">Total experience: 12 years</th>
+        </tr>
+    </table>
+
+    <h2>Table with a merged row</h2>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Exam</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Maths</td>
+            <td>Midterm</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Final</td>
+            <td>50</td>
+        </tr>
+    </table>
+</body>
+</html>
