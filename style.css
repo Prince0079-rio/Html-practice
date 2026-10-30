@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #0645ad;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav {
+    background-color: #0645ad;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #003580;
+    border-radius: 5px;
+}
+
+section {
+    padding: 30px 20px;
+    margin: 15px auto;
+}
+
+section h2 {
+    color: #0645ad;
+    margin-bottom: 20px;
+}
+
+.profile-container {
+    position: relative;
+    height: 220px;
+    margin: 20px auto;
+}
+
+.profile-image {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: calc(50% - 90px);
+    top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#skills table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#skills th,
+#skills td {
+    border: 1px solid #0645ad;
+    padding: 12px;
+    text-align: center;
+}
+
+#skills th {
+    background-color: #0645ad;
+    color: white;
+}
+
+#skills tr:nth-child(even) {
+    background-color: #e4edfa;
+}
+
+.project-card {
+    position: static;
+    background-color: white;
+    width: 60%;
+    margin: 15px auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    color: #0645ad;
+}
+
+#contact table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#contact td {
+    border: 1px solid #0645ad;
+    padding: 10px;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #0645ad;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #003580;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #cccccc;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #0645ad;
+    color: white;
+    padding: 15px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0645ad;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+
+.back-to-top:hover {
+    background-color: #003580;
+}
